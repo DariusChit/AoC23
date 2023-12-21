@@ -1,13 +1,6 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 
-fn get_game_num(text: &str) -> () {
-    let text = text.split(" ");
-    for (idx, word) in text.enumerate() {
-        println!("idx: {}, {}", idx, word)
-    }
-}
-
 fn main() {
     let REDS: u32 = 12;
     let GREENS: u32 = 13;
